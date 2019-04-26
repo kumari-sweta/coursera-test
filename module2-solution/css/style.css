@@ -1,15 +1,3 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-/*
 * {
   box-sizing: border-box;
 }
@@ -62,13 +50,13 @@ section  {
   background-color: orchid;
 }
 
-/* Simple Responsive Framework.
+/* Simple Responsive Framework. */
 .row {
   width: 100%;
-} */
+}
 
 /********** Large devices only **********/
-/*@media (min-width: 992px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -111,7 +99,7 @@ section  {
 }
 
 /********** Medium devices only **********/
-/*@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -153,27 +141,4 @@ section  {
     position: relative;
     right: 23px;
   }
-}*/
-
-</style>
-</head>
-<body>
-<h1>Our Menu</h1>
-
-<div class="row">
-  <div class="col-lg-4 col-md-6">
-    <div id="container">
-      <section id="chickenSection">Chicken</section>
-      <div id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div></div>
-  <div class="col-lg-4 col-md-6">
-    <div id="container">
-      <section id="beefSection">Beef</section>
-      <div id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div></div>
-  <div class="col-lg-4 col-md-12"> 
-    <div id="container">
-      <section id="sushiSection">Sushi</section>
-      <div id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div></di>
-</div>
-
-</body>
-</html>
+}
