@@ -117,8 +117,10 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       var name = "'" + chosenCategoryShortName + "'";
+      var rand = homeHtml.randomCategoryShortName;
       var homeHtmlToInsertIntoMainPage = homeHtml;
-      insertProperty(homeHtmlToInsertIntoMainPage, homeHtml.randomCategoryShortName, name);
+      //insertProperty(homeHtmlToInsertIntoMainPage, homeHtml.randomCategoryShortName, name);
+      insertProperty(name, homeHtml.randomCategoryShortName, homeHtmlToInsertIntoMainPage);
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
